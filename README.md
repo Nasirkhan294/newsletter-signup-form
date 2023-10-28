@@ -23,7 +23,8 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-### 🤝 The challenge
+
+### 🤝 The challenge <a name='the-challenge'></a>
 
 Users should be able to:
 
@@ -35,11 +36,12 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### ⭐️ Screenshot
+### ⭐️ Screenshot <a name='screenshot'></a>
 
 ![](./screenshot.jpg)
 
 <!-- LIVE DEMO -->
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo]()
@@ -47,7 +49,9 @@ Users should be able to:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- My Process -->
 
-## 💻 My Process <a name="getting-started"></a>
+## 💻 My Process <a name="my-process"></a>
+
+ My approach is to create a simple application that displays information about the newsletter sign up process.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,16 +70,19 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -87,7 +94,6 @@ const proudOfThisFunc = () => {
 - LinkedIn: [nasirmahd](https://www.linkedin.com/in/nasirmahd/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTING -->
 
@@ -111,7 +117,7 @@ Please support this project and be a part of something meaningful and impactful.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to express my sincere gratitude to [Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv) for this design. 
+I would like to express my sincere gratitude to [Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv) for this design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
