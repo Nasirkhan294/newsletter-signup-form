@@ -2,8 +2,9 @@
 
 <div align="center">
   <h1><b>Newsletter Sign Up</b></h1>
-
 </div>
+
+
 
 <!-- TABLE OF CONTENTS -->
 
