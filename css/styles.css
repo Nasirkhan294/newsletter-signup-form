@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Galada&family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap");
 
-
- /* Colors */
+/* Colors */
 :root {
-
   --primary: hsl(4, 100%, 67%);
   --dark-slate-grey: hsl(234, 29%, 20%);
   --Charcoal-grey: hsl(235, 18%, 26%);
   --grey: hsl(231, 7%, 60%);
   --white: hsl(0, 0%, 100%);
 }
-
 
 * {
   box-sizing: border-box;
@@ -20,6 +17,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  height: 100vh;
+  color: var(--dark-slate-grey);
 }
 
 ul {
@@ -41,6 +40,10 @@ ul {
   margin: 1rem 2rem;
 }
 
+.card-content h1 {
+  margin-bottom: 2rem;
+}
+
 ul li {
   display: flex;
   align-items: center;
@@ -55,3 +58,26 @@ ul p {
   margin: 0 0 1rem 1rem;
 }
 
+form {
+  width: 100vw;
+}
+
+form p {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+input[type="text"],
+input[type="button"] {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--grey);
+  margin: 0.3rem 0;
+}
+
+input[type="button"] {
+  background-color: var(--dark-slate-grey);
+  color: var(--white);
+}
