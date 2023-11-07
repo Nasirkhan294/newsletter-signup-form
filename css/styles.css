@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Galada&family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap");
 
+
+ /* Colors */
+:root {
+
+  --primary: hsl(4, 100%, 67%);
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --Charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,11 +19,39 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: normal;
+  margin: 1rem 0;
 }
 
 .success-card {
-  display: none
+  display: none;
+}
+
+.newsletter-card {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card-content {
+  margin: 1rem 2rem;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+}
+
+ul img {
+  width: 1.2rem;
+  margin-bottom: 1.8rem;
+}
+
+ul p {
+  margin: 0 0 1rem 1rem;
 }
 
