@@ -4,7 +4,7 @@
 :root {
   --primary: hsl(4, 100%, 67%);
   --dark-slate-grey: hsl(234, 29%, 20%);
-  --Charcoal-grey: hsl(235, 18%, 26%);
+  --charcoal-grey: hsl(235, 18%, 26%);
   --grey: hsl(231, 7%, 60%);
   --white: hsl(0, 0%, 100%);
 }
@@ -19,6 +19,15 @@ body {
   font-family: "Roboto", sans-serif;
   height: 100vh;
   color: var(--dark-slate-grey);
+ 
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--charcoal-grey);
+  height: 100vh;
 }
 
 ul {
@@ -28,11 +37,37 @@ ul {
 }
 
 .success-card {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--white);
+  height: 50%;
+  width: 35%;
+  padding: 3rem;
+  border-radius: 3rem;
 }
 
+/* .success-card h2 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.success-card p {
+  margin: 1rem 0;
+}
+
+.success-card img {
+  width: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.success-card input[type="button"] {
+  width: 100%;
+} */
+
 .newsletter-card {
-  display: flex;
+  display: none;
   flex-direction: column-reverse;
 }
 
