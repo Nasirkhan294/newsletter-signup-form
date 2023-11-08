@@ -62,9 +62,9 @@ ul {
   margin-bottom: 1.5rem;
 }
 
-/* .success-card input[type="button"] {
+.success-card input[type="button"] {
   width: 100%;
-} */
+}
 
 .newsletter-card {
   display: none;
