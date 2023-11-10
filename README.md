@@ -4,8 +4,6 @@
   <h1><b>Newsletter Sign Up</b></h1>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -52,7 +50,7 @@ Users should be able to:
 
 ## 💻 My Process <a name="my-process"></a>
 
- My approach is to create a simple application that displays information about the newsletter sign up process.
+My approach is to create a simple application that displays information about the newsletter sign up process.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,7 +67,15 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="success-card">
+  <img src="images/icon-success.svg" alt="Tick-mark" />
+  <h2>Thanks for subscribing!</h2>
+  <p>
+    A confirmation email has been sent to <b>ash@loremcompany.com</b>. Please
+    open it and click the button inside to confirm your subscription.
+  </p>
+  <button type="button">Dismiss message</button>
+</div>
 ```
 
 ```css
