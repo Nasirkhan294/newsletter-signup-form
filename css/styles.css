@@ -18,7 +18,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--dark-slate-grey);
- 
+
 }
 
 .card-wrapper {
@@ -110,10 +110,13 @@ button {
 button {
   background-color: var(--dark-slate-grey);
   color: var(--white);
+  border: none;
+  outline: none;
 }
 
 button:hover {
   background-color: var(--primary);
+  box-shadow: 5px 5px 5px var(--grey);
 }
 
 /* Desktop styles */
@@ -127,6 +130,7 @@ button:hover {
     align-items: center;
     height: 100vh;
   }
+
   .newsletter-card {
     background-color: var(--white);
     padding: 1rem;
@@ -142,6 +146,10 @@ button:hover {
     width: 50%;
   }
 
+  ul img {
+    margin-bottom: 1rem;
+  }
+
   .card-thumbnail {
     width: 50%;
     height: 100%;
@@ -153,8 +161,19 @@ button:hover {
   }
 
   input[type="text"],
-button {
-  width: 25%;
-  
-}
+  button {
+    width: 25%;
+  }
+
+  .success-card {
+    background-color: var(--white);
+    width: 30%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5rem 2.5rem;
+  }
+
+  .success-card button {
+    margin-top: 1rem;
+  }
 }
