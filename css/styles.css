@@ -98,13 +98,17 @@ form p {
   font-weight: 700;
 }
 
-input[type="text"],
+input,
 button {
   width: 80%;
   padding: 1rem;
   border-radius: 0.5rem;
   border: 1px solid var(--grey);
   margin: 0.3rem 0;
+}
+
+input[type=text]:focus {
+  border: 2px solid var(--primary);
 }
 
 button {
@@ -117,6 +121,14 @@ button {
 button:hover {
   background-color: var(--primary);
   box-shadow: 5px 5px 5px var(--grey);
+}
+
+.error-msg {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+  color: var(--primary);
 }
 
 /* Desktop styles */
