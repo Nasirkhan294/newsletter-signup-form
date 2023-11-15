@@ -1,12 +1,25 @@
-const errorMsg = document.querySelector('.error-msg');
-const input = document.querySelector('input');
-const button = document.querySelector('.btn');
+const form = document.querySelector('#form');
 
-button.addEventListener('click', (e) => {
-    e.preventDefault()
-    if(input.value === '') {
-        errorMsg.style.display = 'flex';
+
+function validateEmail(input) {
+    const email = input.value;
+    const errorMsg = document.querySelector('.error-msg');
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if(emailPattern.test(email)) {
+        errorMsg.style.display = 'none';
+        return true;
     } else {
-        errorMsg.style.display = 'none'
+        errorMsg.style.display = 'flex';
+        return false
+    }
+}
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const input = document.querySelector('input');
+    if(validateEmail(input)) {
+        form.submit();
+        input.value = '';
     }
 })
