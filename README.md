@@ -90,8 +90,14 @@ To see how you can add code snippets, see below:
 ```
 
 ```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const input = document.querySelector('input');
+    if(validateEmail(input)) {
+        form.submit();
+        input.value = '';
+    }
+})
 };
 ```
 
