@@ -31,39 +31,6 @@ ul {
   margin: 1rem 0;
 }
 
-.success-card {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 1.5rem;
-  margin-top: 5rem;
-}
-
-.success-card h2 {
-  font-size: 2.5rem;
-  line-height: 1;
-}
-
-.success-card p {
-  margin: 1rem 0;
-}
-
-.success-card img {
-  width: 3rem;
-  margin-bottom: 1.5rem;
-}
-
-.success-card button {
-  width: 100%;
-  margin-top: 20rem;
-}
-
-.newsletter-card {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
 .card-content {
   margin: 1rem 2rem;
 }
@@ -131,16 +98,51 @@ button:hover {
   color: var(--primary);
 }
 
+/* Success card */
+
+.success-card {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.5rem;
+  margin-top: 5rem;
+}
+
+.success-card h2 {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.success-card p {
+  margin: 1rem 0;
+}
+
+.success-card img {
+  width: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.success-card button {
+  width: 100%;
+  margin-top: 20rem;
+}
+
+.newsletter-card {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 /* Desktop styles */
 
 @media screen and (min-width: 1024px) {
 
   .card-wrapper {
-    background-color: var(--charcoal-grey);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: var(--charcoal-grey);
   }
 
   .newsletter-card {
